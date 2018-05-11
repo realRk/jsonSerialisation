@@ -29,6 +29,11 @@ class ViewController: UIViewController {
                 for array in courses{
                     //getting each array from the dictionary 
                     print(array.name!)
+                     print(array.name!)
+                     print(array.name!)
+                     print(array.name!)
+                     print(array.name!)
+                     print(array.name!) print(array.name!)
                 }
             }
             catch let JsonErr{
