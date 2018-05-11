@@ -27,6 +27,7 @@ class ViewController: UIViewController {
             do{
                 let courses = try JSONDecoder().decode([Course].self,from :data!)
                 for array in courses{
+                    //getting each array from the dictionary 
                     print(array.name!)
                 }
             }
